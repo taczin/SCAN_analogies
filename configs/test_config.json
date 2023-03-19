@@ -1,0 +1,24 @@
+{
+  "encoder": {
+    "num_layers": 2,
+    "dim_layers": [300, 300, 300]
+  },
+  "encoder3": {
+    "dim_layers": [200]
+  },
+  "gating": {
+    "type": "subtraction"
+  },
+  "classifier": {
+    "num_layers": 1,
+    "dim_layers": [400]
+  },
+  "parameters": {
+    "model": "GloveNoTraining",
+    "optimizer": "adam",
+    "lr": 5e-5,
+    "dataset": "Scan",
+    "batch_size": 32,
+    "helper_sent": 0
+  }
+}

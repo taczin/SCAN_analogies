@@ -1,0 +1,17 @@
+name: thesis
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - torchaudio
+  - cudatoolkit=11.0
+  - pytorch
+  - torchvision
+  - transformers
+  - pandas
+  - torchtext
+  - scipy
+  - faiss-cpu
+  - seaborn
+  - tensorboard
+prefix: C:\Users\tczin\miniconda3\envs\thesis
